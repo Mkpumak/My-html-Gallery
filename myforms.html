@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <head>
+      <div style="display: grid; height: 400px; background-color: aqua"></div>
+    </head>
+    <section
+      style="
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+      "
+    >
+      <div
+        style="height: 300px; width: 300px; background-color: red; margin: 50px"
+      ></div>
+
+      <div
+        style="height: 300px; width: 300px; background-color: red; margin: 50px"
+      ></div>
+    </section>
+    <section style="display: block; margin: 10px">
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ullam
+          molestiae mollitia suscipit nobis necessitatibus eligendi labore
+          repellat non reiciendis ducimus minus odit ratione, sit veniam
+          dignissimos molestias totam optio corrupti ab harum iusto facere
+          dolorum quaerat. Illum, nihil obcaecati officiis explicabo assumenda
+          repellendus doloremque, vel commodi exercitationem, atque fuga.
+        </p>
+      </div>
+
+      <div>
+        <form action="post">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            minlength="5"
+            required
+          />
+          <label for="password">Password</label>
+          <input type="password" required />
+          <label for="phone">Mobile Number</label>
+          <input type="tel" required />
+          <button type="submit">sign in</button>
+        </form>
+      </div>
+    </section>
+    <footer style="display: block; height: 200px; background-color: black">
+      <div></div>
+    </footer>
+  </body>
+</html>
